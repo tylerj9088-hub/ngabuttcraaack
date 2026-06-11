@@ -10,7 +10,7 @@ import random
 import string
 
 import customtkinter as ctk
-from tkinter import messagebox, filedialog
+from packaging.version import parse as parse_version
 from pkg_resources import parse_version
 from socket import create_connection
 from tkinter import messagebox
